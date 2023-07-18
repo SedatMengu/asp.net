@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sedat MENGU\\Desktop\\asp.net\\E-Ticaret\\E-Ticaret.csproj": {}
+    "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\E-Ticaret.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sedat MENGU\\Desktop\\asp.net\\E-Ticaret\\E-Ticaret.csproj": {
+    "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\E-Ticaret.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sedat MENGU\\Desktop\\asp.net\\E-Ticaret\\E-Ticaret.csproj",
+        "projectUniqueName": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\E-Ticaret.csproj",
         "projectName": "E-Ticaret",
-        "projectPath": "C:\\Users\\Sedat MENGU\\Desktop\\asp.net\\E-Ticaret\\E-Ticaret.csproj",
+        "projectPath": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\E-Ticaret.csproj",
         "packagesPath": "C:\\Users\\Sedat MENGU\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sedat MENGU\\Desktop\\asp.net\\E-Ticaret\\obj\\",
+        "outputPath": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sedat MENGU\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
