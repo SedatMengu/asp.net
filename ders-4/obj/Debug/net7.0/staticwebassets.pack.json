@@ -45,6 +45,10 @@
       "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
     },
     {
+      "Id": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-4\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
       "Id": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-4\\wwwroot\\css\\slicknav.min.css",
       "PackagePath": "staticwebassets\\css\\slicknav.min.css"
     },
@@ -479,6 +483,10 @@
     {
       "Id": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-4\\wwwroot\\js\\owl.carousel.min.js",
       "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-4\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
       "Id": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-4\\wwwroot\\lib\\bootstrap\\LICENSE",

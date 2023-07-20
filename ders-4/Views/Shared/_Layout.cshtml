@@ -2,14 +2,12 @@
 <html lang="en">
 @{await Html.RenderPartialAsync("_Head");}
 <body>
+    @{await Html.RenderPartialAsync("_PagePreloder");}
     @{await Html.RenderPartialAsync("_Header");}
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
-    @{await Html.RenderPartialAsync ("_Footer");
-      await Html.RenderPartialAsync("_Scripts");}
+    @RenderBody()
+    @{await Html.RenderPartialAsync("_PartnerLogo");}
+    @{await Html.RenderPartialAsync("_Footer");}
+    @{await Html.RenderPartialAsync("_Scripts");}
 </body>
-    @await RenderSectionAsync("Scripts", required: false)
+
 </html>
