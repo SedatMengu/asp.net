@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ve1hr/o3+YgPzXfZDNNP/KEzcSkOjanQ0RJnMpj56nUoU8X0ujD4wrvjzATGJF6QQzq1497kSG1NBqh8E/k6Mw==",
+  "dgSpecHash": "ocY2cfsUl97p/kPbgWJZVclMjEqq5H/fLkhp1a7Vmcn4gcoOYFyxMCb4p4jww8ScCOrDPsoGx/DNUDXYNrIyJg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-4\\E-Ticaret.csproj",
+  "projectFilePath": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-5\\E-Ticaret.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sedat MENGU\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\3.0.0\\microsoft.aspnetcore.mvc.razor.extensions.3.0.0.nupkg.sha512",
     "C:\\Users\\Sedat MENGU\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\3.0.0\\microsoft.aspnetcore.mvc.razor.runtimecompilation.3.0.0.nupkg.sha512",

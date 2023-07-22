@@ -697,11 +697,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-4\\E-Ticaret.csproj",
+      "projectUniqueName": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-5\\E-Ticaret.csproj",
       "projectName": "E-Ticaret",
-      "projectPath": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-4\\E-Ticaret.csproj",
+      "projectPath": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-5\\E-Ticaret.csproj",
       "packagesPath": "C:\\Users\\Sedat MENGU\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-4\\obj\\",
+      "outputPath": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-5\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Sedat MENGU\\AppData\\Roaming\\NuGet\\NuGet.Config",
