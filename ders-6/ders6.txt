@@ -1,0 +1,37 @@
+veri tabanı işlemleri :
+
+e ticaret database inde şu tablolar olacak.
+
+Adress
+Band
+Banner
+Blog
+BlogCat
+BlogFile
+BlogImage
+Brand
+City
+Comment
+ContactForm
+Country
+Cuopon
+Customer
+District
+Editor
+Like
+Message
+Neighborhood
+Newsletter
+Order
+OrderDetail
+Payment
+Product
+ProductCat
+ProductColor
+ProductFile
+ProductImage
+ProductSize
+Shipper
+Site
+Slide
+Street
