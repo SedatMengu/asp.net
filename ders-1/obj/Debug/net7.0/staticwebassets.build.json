@@ -1,28 +1,28 @@
 {
   "Version": 1,
-  "Hash": "Ic+Es4q1yz+guPktjo6PdlE4M9pOcka7v7Wedz0wLnk=",
-  "Source": "E-Ticaret",
-  "BasePath": "_content/E-Ticaret",
+  "Hash": "4OI+eRYRaHhq9DamIsku6NO88db5be6FQPu3+1XxpRM=",
+  "Source": "asp.net2",
+  "BasePath": "_content/asp.net2",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "E-Ticaret\\wwwroot",
-      "Source": "E-Ticaret",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "Name": "asp.net2/wwwroot",
+      "Source": "asp.net2",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\obj\\Debug\\net7.0\\scopedcss\\bundle\\E-Ticaret.styles.css",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/obj/Debug/net7.0/scopedcss/bundle/asp.net2.styles.css",
+      "SourceId": "asp.net2",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/E-Ticaret",
-      "RelativePath": "E-Ticaret.styles.css",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/obj/Debug/net7.0/scopedcss/bundle/",
+      "BasePath": "_content/asp.net2",
+      "RelativePath": "asp.net2.styles.css",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Primary",
@@ -31,15 +31,15 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\obj\\Debug\\net7.0\\scopedcss\\bundle\\E-Ticaret.styles.css"
+      "OriginalItemSpec": "/Users/sedatmengu/Documents/GitHub/asp.net2/obj/Debug/net7.0/scopedcss/bundle/asp.net2.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\E-Ticaret.bundle.scp.css",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/obj/Debug/net7.0/scopedcss/projectbundle/asp.net2.bundle.scp.css",
+      "SourceId": "asp.net2",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/E-Ticaret",
-      "RelativePath": "E-Ticaret.bundle.scp.css",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/obj/Debug/net7.0/scopedcss/projectbundle/",
+      "BasePath": "_content/asp.net2",
+      "RelativePath": "asp.net2.bundle.scp.css",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Primary",
@@ -48,14 +48,14 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\E-Ticaret.bundle.scp.css"
+      "OriginalItemSpec": "/Users/sedatmengu/Documents/GitHub/asp.net2/obj/Debug/net7.0/scopedcss/projectbundle/asp.net2.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\css\\site.css",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/css/site.css",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -65,14 +65,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
+      "OriginalItemSpec": "wwwroot/css/site.css"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\favicon.ico",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/favicon.ico",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -82,14 +82,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
+      "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\js\\site.js",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/js/site.js",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -99,14 +99,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\site.js"
+      "OriginalItemSpec": "wwwroot/js/site.js"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -116,14 +116,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -133,14 +133,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -150,14 +150,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -167,14 +167,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -184,14 +184,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -201,14 +201,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -218,14 +218,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -235,14 +235,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -252,14 +252,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -269,14 +269,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -286,14 +286,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -303,14 +303,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -320,14 +320,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -337,14 +337,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -354,14 +354,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -371,14 +371,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -388,14 +388,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -405,14 +405,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -422,14 +422,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -439,14 +439,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -456,14 +456,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -473,14 +473,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -490,14 +490,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -507,14 +507,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -524,14 +524,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -541,14 +541,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -558,14 +558,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -575,14 +575,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -592,14 +592,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -609,14 +609,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -626,14 +626,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -643,14 +643,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -660,14 +660,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -677,14 +677,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -694,14 +694,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -711,14 +711,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -728,14 +728,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -745,14 +745,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -762,14 +762,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -779,14 +779,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -796,14 +796,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -813,14 +813,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -830,14 +830,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -847,14 +847,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/bootstrap/LICENSE",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -864,14 +864,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -881,14 +881,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -898,14 +898,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -915,14 +915,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -932,14 +932,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -949,14 +949,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -966,14 +966,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -983,14 +983,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/jquery-validation/LICENSE.md",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1000,14 +1000,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
+      "OriginalItemSpec": "wwwroot/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/jquery/dist/jquery.js",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1017,14 +1017,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/jquery/dist/jquery.min.js",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1034,14 +1034,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
+      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/jquery/dist/jquery.min.map",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1051,14 +1051,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
+      "OriginalItemSpec": "wwwroot/lib/jquery/dist/jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "SourceId": "E-Ticaret",
+      "Identity": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/lib/jquery/LICENSE.txt",
+      "SourceId": "asp.net2",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sedat MENGU\\Desktop\\Github\\asp.net\\ders-1\\wwwroot\\",
-      "BasePath": "_content/E-Ticaret",
+      "ContentRoot": "/Users/sedatmengu/Documents/GitHub/asp.net2/wwwroot/",
+      "BasePath": "_content/asp.net2",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1068,7 +1068,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+      "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
     }
   ]
 }

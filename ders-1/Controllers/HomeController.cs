@@ -1,8 +1,8 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using E_Ticaret.Models;
+using asp.net2.Models;
 
-namespace E_Ticaret.Controllers;
+namespace asp.net2.Controllers;
 
 public class HomeController : Controller
 {

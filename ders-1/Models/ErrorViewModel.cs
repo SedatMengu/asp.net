@@ -1,4 +1,4 @@
-namespace E_Ticaret.Models;
+namespace asp.net2.Models;
 
 public class ErrorViewModel
 {
