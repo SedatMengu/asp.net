@@ -1,0 +1,13 @@
+layout kısmını daha interaktif kullanabilmek için parçalamamız gerekir.
+oluşacak olan parçalar,
+
+1- header kısmı
+2- header kısmı
+3- footer kısmı
+
+Shared kalsörü altına _Head.cshtml , _Footer.cshtml adında klasörler oluşturuyoruz.
+
+1.adım : _Layout.cshtml ksımından <head></head> tagları arasındaki bölümü kesip alıyoruz ve _Head.cshtml sayfasına yapıştırıyoruz.
+2.adım : _Layout.cshtml sayfasına giderek kestiğimiz <head></head> taglarının yerine @{await Html.RenderPartialAsync("_Head");} yazıyoruz.
+3.adım : _Layout.cshtml ksımından <footer></footer> tagları arasındaki bölümü kesip alıyoruz ve _Footer.cshtml sayfasına yapıştırıyoruz.
+4.adım : _Layout.cshtml sayfasına giderek kestiğimiz <footer></footer> taglarının yerine @{await Html.RenderPartialAsync("_Footer");} yazıyoruz.

@@ -1,0 +1,77 @@
+1- wwwroot klasörü içerisindeki lib klasörü haricindeki bütün klasörleri sildik.
+2- fashi adında bi internet sitesi template ini aldık ve source dışındaki bütün klasörleri seçerek wwwroot içerisine yapıştırdık.
+3- wwwroot içerisineki css klasörü altında site.css ve js klasörü altında site.js adında 2 tane boş dosya oluşturduk , ileride kullanacağız.
+4- wwwroot içerisine upload adında bir klasör ve içinede images ve files adında 2 klasör ekledik , ileride kullanacağız.
+5- eklediğimiz fashi projesini adım adım bütün html sayflarını projemize peydepey dahil edeceğiz.
+
+1.adım :
+
+index.html sayfasındaki linklerin başlarına / işareti koyacağız. bu işareti ilgili linklere tıklandığında route üzerinden ilerlesin diye.
+
+eski hali : 
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+<link rel="stylesheet" href="css/themify-icons.css" type="text/css">
+<link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+<link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+<link rel="stylesheet" href="css/nice-select.css" type="text/css">
+<link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+<link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+<link rel="stylesheet" href="css/style.css" type="text/css">
+
+yeni hali : 
+<link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="/css/font-awesome.min.css" type="text/css">
+<link rel="stylesheet" href="/css/themify-icons.css" type="text/css">
+<link rel="stylesheet" href="/css/elegant-icons.css" type="text/css">
+<link rel="stylesheet" href="/css/owl.carousel.min.css" type="text/css">
+<link rel="stylesheet" href="/css/nice-select.css" type="text/css">
+<link rel="stylesheet" href="/css/jquery-ui.min.css" type="text/css">
+<link rel="stylesheet" href="/css/slicknav.min.css" type="text/css">
+<link rel="stylesheet" href="/css/style.css" type="text/css">
+
+aynı işlemi js uzantlı linklerin başına da koyacağız.
+
+eksi hali: 
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/jquery.countdown.min.js"></script>
+<script src="js/jquery.nice-select.min.js"></script>
+<script src="js/jquery.zoom.min.js"></script>
+<script src="js/jquery.dd.min.js"></script>
+<script src="js/jquery.slicknav.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/main.js"></script>
+
+yeni hali : 
+
+<script src="/js/jquery-3.3.1.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery-ui.min.js"></script>
+<script src="/js/jquery.countdown.min.js"></script>
+<script src="/js/jquery.nice-select.min.js"></script>
+<script src="/js/jquery.zoom.min.js"></script>
+<script src="/js/jquery.dd.min.js"></script>
+<script src="/js/jquery.slicknav.js"></script>
+<script src="/js/owl.carousel.min.js"></script>
+<script src="/js/main.js"></script>
+
+aynı işlemi img uzantlı linklerin başına da koyacağız.
+
+
+2.adım : 
+
+index.html sayfasını olduğu gibi keserek Views/Shared/_Layout.cshtml uzantılı dosyaya yapıştırıyoruz.
+
+bir önceki derste uygladığımız mantıkta head , footer , scripts gibi alanları parçalıyoruz. 
+ilave olarak _Scripts.cshtml sayfasının sonuna dersin başında oluşturudğumuz site.js dosya yolunu ekliyoruz.
+ilave olarak _Head.cshtml sayfasının sonuna dersin başında oluşturudğumuz site.css dosya yolunu ekliyoruz.
+
+önemli nokta : _Head.cshtml dosyasındaki title etiketlerini daha efektif yapabilmek için şu şekilde yazmamız gerekir.
+
+<title> @ViewData["Title"] | E-Ticaret </title>
+
+_Layout.cshtml içerisinde <body></body> tagları içerisinde kalan ve herhangi bir yere almadığımız kısım bizim index.html sayfamız olacak
+bu satırları keserek Views/Home/Index.cshtml sayfasına yapıştırıyoruz.
+_Layout.cshtml sayfasına ise @RenderBody koyuruz.

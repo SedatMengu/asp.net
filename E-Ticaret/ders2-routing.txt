@@ -1,0 +1,65 @@
+Routeing işlemi
+
+ana sayfadaki home ve privacy yazılarına route ekleyeceğiz ve dinamik hale getireceğiz.
+
+Shared klasörü altındaki _Layout.cshtml sayfasında aşağıdaki alanı değiiştiriyoruz.
+
+eski hali :
+<ul class="navbar-nav flex-grow-1">
+    <li class="nav-item">
+        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    </li>
+</ul>
+
+yeni hali:
+<ul class="navbar-nav flex-grow-1">
+    <li class="nav-item">
+        <a class="nav-link text-dark" href="/index">Home</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-dark" href="/privacy">Privacy</a>
+    </li>
+</ul>
+
+Controllers klasörü altındaki HomeController.cs klasörüne giderek aşağıdaki değişiklikleri yapıyoruz.
+
+eski hali : 
+
+public HomeController(ILogger<HomeController> logger)
+{
+    _logger = logger;
+}
+
+public IActionResult Index()
+{
+    return View();
+}
+
+public IActionResult Privacy()
+{
+    return View();
+}
+
+yeni hali : 
+
+public HomeController(ILogger<HomeController> logger)
+{
+    _logger = logger;
+}
+[Route ("/Index")]
+public IActionResult Index()
+{
+    return View();
+}
+[Route ("/Privacy")]
+public IActionResult Privacy()
+{
+    return View();
+}
+
+actionresult her sayfa için bir tane olması gerekir. şuanlik home ve  privacy adında 2 sayfamız olduğu için 2 tane actionresult umuz var.
+
+burada en öncelisi büyük harf / küçük harf hatası yapmamak.
