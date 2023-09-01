@@ -4,7 +4,7 @@ bu bölümde wwwroot olarak eklediğimiz html dosyalarını projemize entegre ed
 2.adım : wwwroot içerisindeki .html uzantılı dosyaların benzersiz kısımlarınıa aynı isimdeki .cshtml uzantılı dosyalara keserek alıyoruz.
 diğer kısımlar zaten _Head , _Header , _Partnerlogo , _Preloader , _Scripts, _Footer olarak layout içerisine eklenmiş durumdadır.
 
-3.adım : bu sayfaları tanıtabilmek için Controllers/HomeController.cs sayfasına giderek şu değişikliği yapıyoruz. teker teker bütün sayfaları ekliyoruz.
+3.adım : bu sayfaları tanıtabilmek için Controllers/HomeController.cs sayfasına giderek eker teker bütün sayfalar için actionresult ekliyoruz.
 4.adım : _Header.cshtml dosyasına giderek linkleri düzenliyoruz. (href="/(HomeController da verilen isim ile aynı olacak)" olacak şekilde)
 
 
