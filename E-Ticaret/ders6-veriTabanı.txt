@@ -1,0 +1,10 @@
+veri tabanı bağlantıları için aşağıdaki paketleri sırayla yüklememiz gerekir.
+1.paket : dotnet add package Microsoft.EntityFrameworkCore --version 6.0.0 
+2.paket : dotnet add package Microsoft.EntityFrameworkCore.Tools --version 6.0.0.
+3.paket : dotnet add package Microsoft.EntityFrameworkCore.Design --version 6.0.0
+4.paket : dotnet add package Microsoft.EntityFrameworkCore.Design --version 6.0.0
+5.paket : dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 6.0.0
+6.paket : dotnet add package Pomelo.EntityFrameworkCore.MySql --version 6.0.0    / pu paket mysql olması durumunda kullanılır.
+
+yüklenen paketler asp.net2.csproj kalsörü altında görünür.
+
