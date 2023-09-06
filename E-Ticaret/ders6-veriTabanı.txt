@@ -8,3 +8,8 @@ veri tabanı bağlantıları için aşağıdaki paketleri sırayla yüklememiz g
 
 yüklenen paketler asp.net2.csproj kalsörü altında görünür.
 
+bu paketleri yükledikten sonra;
+
+dotnet ef dbcontext scaffold "server=localhost; user=sa; password=reallyStrongPwd123; database=ETicaretDB" Microsoft.EntityFrameworkCore.SqlServer
+
+bu konu çalıştırarak database ile bağlantı kurduk.
