@@ -19,9 +19,11 @@ docker üzerine birsürü paket yüklenebilir. biz mssql kurulumu yapacğaız.
 
 1.adım : .bak uzantlı dosyayı masaüstüne alıyoruz.
 2.adım : temrminal üzerinden cd desktop ile desktop konumuna geliyoruz.
-3.adım : terminal ekranına docker cp (database adı).bak (çalışan docker conteiner ıd si) :/tmp ile database i tmp klasörü altında atıyoruz.
+3.adım : terminal ekranına docker cp (database adı).bak (çalışan docker conteiner ıd si):/tmp ile database i tmp klasörü altında atıyoruz.
 4.adım : azure data studio programını çalıştırıyoruz.
 5.adım : database kısmına control + enter ile manage bölümünü açıyoruz.
+6.adım : You must enable preview features in order to use restore hatası alırsak , azure programından settings altından enable preview features tikli olması gerekir.
 6.adım : backup file seçerek yukarda yaptığımız tmp klasörü altından ilgili database i buluyoruz.
 7.adım : ok ve restore diyerek database azure data studio ya eklenmiş oluyor.
 8.adım : azure data studio da oluşan database ler , master , model , msdb , tempdb , ETicaretDB.
+

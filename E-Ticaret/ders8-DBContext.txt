@@ -1,0 +1,8 @@
+database context işlemi.
+
+
+1.adım : Models altındaki Entities altında bulunan ETicaretDBContext.cs dosyasına gidiyoruz.
+2.adım : 58.satırdaki şu bilgileri alıyoruz."server=localhost; user=sa; password=reallyStrongPwd123; database=ETicaretDB"
+3.adım : anaroute da yer alan appsettings.json dosyasına giderek şu şekilde değiştiriyoruz.
+
+eski hali : 
