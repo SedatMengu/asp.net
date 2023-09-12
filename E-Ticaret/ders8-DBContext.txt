@@ -6,3 +6,41 @@ database context işlemi.
 3.adım : anaroute da yer alan appsettings.json dosyasına giderek şu şekilde değiştiriyoruz.
 
 eski hali : 
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}
+
+
+yeni hali : 
+
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+
+  "ConnectionStrings": {
+    "DefaultConnection":"server=localhost; user=sa; password=reallyStrongPwd123; database=ETicaretDB"
+  },
+  "AllowedHosts": "*"
+}
+
+4.adım : program.cs dosyasına giderek servis yolunu ekleyeceğiz.
+
+builder.Services.AddDbContext<ETicaretDBContext>(
+    options=>options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
+);
+
+bu kodu ekliyoruz.
+
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+builder.Services.AddDbContext<ETicaretDBContext>(options =>options.UseSqlServer(connectionString));

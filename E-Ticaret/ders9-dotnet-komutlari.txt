@@ -1,0 +1,91 @@
+dotnet new: 
+dotnet build: 
+dotnet run: Bir .NET projesini çalıştırmak için kullanılır. Özellikle konsol uygulamalarını çalıştırmak için kullanışlıdır.
+dotnet publish: Bir .NET projesini yayınlamak için kullanılır. Bu komut, projenizin bağımsız bir uygulama olarak yayınlanmasını sağlar. Yayınlanmış uygulama, başka bir bilgisayarda çalıştırılabilir.
+dotnet test: Bir .NET projesindeki testleri çalıştırmak için kullanılır. Bu komut, NUnit, xUnit veya MSTest gibi test çerçevelerini kullanarak testleri yürütmenizi sağlar.
+dotnet restore: Bir .NET projesinin bağımlılıklarını yeniden yükler. Projede kullanılan paketlerin ve bağımlılıkların yüklenmesini sağlar.
+dotnet clean: Bir .NET projesini temizlemek için kullanılır. Bu komut, derlenmiş çıktıları ve geçici dosyaları kaldırır.
+dotnet add: Bir .NET projesine yeni bir paket veya bağımlılık eklemek için kullanılır. Örneğin, dotnet add package packageName şeklinde kullanabilirsiniz.
+dotnet ef: Entity Framework Core ile ilgili veritabanı işlemlerini yapmak için kullanılır. Migration oluşturma, veritabanı güncelleme gibi işlemleri yönetmek için kullanılır.
+dotnet watch: Uygulamanızı otomatik olarak izlemek ve değişiklikler yapıldığında otomatik olarak yeniden derlemek için kullanılır. Bu, geliştirme sürecini hızlandırmak için kullanışlıdır.
+
+
+Execute a .NET application.
+
+runtime-options:
+  --additionalprobingpath <path>   Path containing probing policy and assemblies to probe for.
+  --additional-deps <path>         Path to additional deps.json file.
+  --depsfile                       Path to <application>.deps.json file.
+  --fx-version <version>           Version of the installed Shared Framework to use to run the application.
+  --roll-forward <setting>         Roll forward to framework version  (LatestPatch, Minor, LatestMinor, Major, LatestMajor, Disable).
+  --runtimeconfig                  Path to <application>.runtimeconfig.json file.
+
+path-to-application:
+  The path to an application .dll file to execute.
+
+Usage: dotnet [sdk-options] [command] [command-options] [arguments]
+
+Execute a .NET SDK command.
+
+sdk-options:
+  -d|--diagnostics  Enable diagnostic output.
+  -h|--help         Show command line help.
+  --info            Display .NET information.
+  --list-runtimes   Display the installed runtimes.
+  --list-sdks       Display the installed SDKs.
+  --version         Display .NET SDK version in use.
+
+SDK commands:
+  add               Add a package or reference to a .NET project.
+  build             Build a .NET project.
+  build-server      Interact with servers started by a build.
+  clean             Clean build outputs of a .NET project.
+  format            Apply style preferences to a project or solution.
+  help              Show command line help.
+  list              List project references of a .NET project.
+  msbuild           Run Microsoft Build Engine (MSBuild) commands.
+  new               Yeni bir .NET projesi oluşturmak için kullanılır. 
+                    Örneğin, bir konsol uygulaması oluşturmak için dotnet new console komutunu kullanabilirsiniz.
+  nuget             Provides additional NuGet commands.
+  pack              Create a NuGet package.
+  publish           Publish a .NET project for deployment.
+  remove            Remove a package or reference from a .NET project.
+  restore           Restore dependencies specified in a .NET project.
+  run               Build and run a .NET project output.
+  sdk               Manage .NET SDK installation.
+  sln               Modify Visual Studio solution files.
+  store             Store the specified assemblies in the runtime package store.
+  test              Run unit tests using the test runner specified in a .NET project.
+  tool              Install or manage tools that extend the .NET experience.
+  vstest            Run Microsoft Test Engine (VSTest) commands.
+  workload          Manage optional workloads.
+
+Additional commands from bundled tools:
+  dev-certs         Create and manage development certificates.
+  fsi               Start F# Interactive / execute F# scripts.
+  user-jwts         Manage JSON Web Tokens in development.
+  user-secrets      Manage development user secrets.
+  watch             Start a file watcher that runs a command when files change.
+
+
+
+
+  Entity Framework Core (EF Core) ile çalışırken yaygın olarak kullanılan dotnet ef komutları aşağıda sıralanmıştır:
+
+dotnet ef migrations add: Bir veritabanı model değişikliği için yeni bir migration oluşturur. Örneğin, dotnet ef migrations add InitialCreate komutu, bir başlangıç ​​migrasyonunu oluşturur.
+dotnet ef migrations remove: En son oluşturulan migration'ı geri alır.
+dotnet ef database update: Oluşturulan veya var olan migrationları veritabanına uygular ve veritabanını günceller.
+dotnet ef database drop: Veritabanını kaldırır.
+dotnet ef database update [MigrationName]: Belirli bir migration'ı veritabanına uygular.
+dotnet ef database list: Veritabanı bağlantısını kullanarak mevcut veritabanları listesini görüntüler.
+dotnet ef dbcontext info: DbContext sınıfınızın ve kullanılan veritabanı bağlantısının bilgilerini görüntüler.
+dotnet ef dbcontext scaffold: Veritabanı tablolarını kullanarak DbContext sınıfını otomatik olarak oluşturur.
+dotnet ef dbcontext script: Veritabanı için SQL scriptini üretir.
+dotnet ef dbcontext list: DbContext sınıflarınızı listeler.
+dotnet ef dbcontext remove: DbContext sınıfınızı kaldırır.
+dotnet ef migrations script: Migration'ları içeren SQL scriptini üretir.
+dotnet ef dbcontext drop: DbContext sınıfını ve ilişkili veritabanını kaldırır.
+dotnet ef dbcontext update: DbContext sınıfınızı ve veritabanınızı günceller.
+dotnet ef dbcontext scaffold: Veritabanı tablolarını kullanarak DbContext sınıfını otomatik olarak oluşturur.
+dotnet ef dbcontext sql: Veritabanı için SQL komutlarını üretir.
+dotnet ef dbcontext diagnose: DbContext sınıfı ve ilişkili veritabanı hakkında tanısal bilgileri görüntüler.

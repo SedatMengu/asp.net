@@ -1,7 +1,15 @@
+using System.Data;
+using asp.net2;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews() .AddRazorRuntimeCompilation();
+
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+builder.Services.AddDbContext<ETicaretDBContext>(options =>options.UseSqlServer(connectionString));
 
 var app = builder.Build();
 

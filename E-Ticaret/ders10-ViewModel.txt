@@ -1,0 +1,7 @@
+ViewModel oluşturma. 
+
+ASP.NET MVC uygulamalarında view model oluşturmak, verilerinizi veri tabanından 
+veya diğer kaynaklardan alırken ve bunları görünüme iletmek için kullanışlıdır.
+Bir view model, yalnızca görünüme gönderilmesi gereken verileri içerir ve 
+bu, görünümün temiz ve bağımsız kalmasını sağlar.
+

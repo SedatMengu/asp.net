@@ -1,6 +1,6 @@
 veri tabanı bağlantıları için aşağıdaki paketleri sırayla yüklememiz gerekir.
 1.paket : dotnet add package Microsoft.EntityFrameworkCore --version 6.0.0 
-2.paket : dotnet add package Microsoft.EntityFrameworkCore.Tools --version 6.0.0.
+2.paket : dotnet add package Microsoft.EntityFrameworkCore.Tools --version 6.0.0
 3.paket : dotnet add package Microsoft.EntityFrameworkCore.Design --version 6.0.0
 4.paket : dotnet add package Microsoft.EntityFrameworkCore.Design --version 6.0.0
 5.paket : dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 6.0.0
@@ -9,6 +9,15 @@ veri tabanı bağlantıları için aşağıdaki paketleri sırayla yüklememiz g
 yüklenen paketler asp.net2.csproj kalsörü altında görünür.
 
 bu paketleri yükledikten sonra;
+
+1.adım : Entity Framework Core Command-line (ef-cli) Kurulumu:
+
+Öncelikle Entity Framework Core Command-line aracını yüklemeniz gerekebilir. 
+Aşağıdaki komutu kullanarak ef-cli'yi yükleyebilirsiniz (eğer daha önce yüklemediyseniz):
+
+dotnet tool install --global dotnet-ef
+
+2.adım : 
 
 dotnet ef dbcontext scaffold "server=localhost; user=sa; password=reallyStrongPwd123; database=ETicaretDB" Microsoft.EntityFrameworkCore.SqlServer
 

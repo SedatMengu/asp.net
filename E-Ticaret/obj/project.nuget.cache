@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SVSUOoDoSle0K1PTnok/hUc3sLHSTwzgG5/9eWPMwEm7IEFNaVuPx577cOrGPqE7KVmNESfUMw7KSVMP3xKSxQ==",
+  "dgSpecHash": "cZBbqy8McOZCXLbPFfrG77OVxzorNRmcSlCfr+v/GhC03tCdGUcReeYj9LIRWv518qCfCRh4U3CnyMiPjue8RA==",
   "success": true,
   "projectFilePath": "/Users/sedatmengu/Documents/GitHub/asp.net/E-Ticaret/asp.net2.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,7 @@
     "/Users/sedatmengu/.nuget/packages/microsoft.entityframeworkcore.design/6.0.0/microsoft.entityframeworkcore.design.6.0.0.nupkg.sha512",
     "/Users/sedatmengu/.nuget/packages/microsoft.entityframeworkcore.relational/6.0.0/microsoft.entityframeworkcore.relational.6.0.0.nupkg.sha512",
     "/Users/sedatmengu/.nuget/packages/microsoft.entityframeworkcore.sqlserver/6.0.0/microsoft.entityframeworkcore.sqlserver.6.0.0.nupkg.sha512",
+    "/Users/sedatmengu/.nuget/packages/microsoft.entityframeworkcore.tools/6.0.0/microsoft.entityframeworkcore.tools.6.0.0.nupkg.sha512",
     "/Users/sedatmengu/.nuget/packages/microsoft.extensions.caching.abstractions/6.0.0/microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "/Users/sedatmengu/.nuget/packages/microsoft.extensions.caching.memory/6.0.0/microsoft.extensions.caching.memory.6.0.0.nupkg.sha512",
     "/Users/sedatmengu/.nuget/packages/microsoft.extensions.configuration.abstractions/6.0.0/microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
