@@ -5,3 +5,4 @@ veya diğer kaynaklardan alırken ve bunları görünüme iletmek için kullanı
 Bir view model, yalnızca görünüme gönderilmesi gereken verileri içerir ve 
 bu, görünümün temiz ve bağımsız kalmasını sağlar.
 
+Models/entities klasörü altındaki bütün .cs uzantılı dosyalar için ViewModel oluşturmamız gerekiyor.
