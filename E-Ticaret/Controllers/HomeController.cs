@@ -1,6 +1,7 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using asp.net2.Models;
+using ETicaret.Models;
 
 namespace asp.net2.Controllers;
 
@@ -12,11 +13,22 @@ public class HomeController : Controller
     {
         _logger = logger;
     }
+
+    ETicaretDBContext db = new ETicaretDBContext();
+
     [Route ("/")]
     public IActionResult Index()
     {
-        return View();
+        var model = IndexViewModel();
+        
+        return View(model);
     }
+
+    private string? IndexViewModel()
+    {
+        throw new NotImplementedException();
+    }
+
     [Route ("/shop")]
     public IActionResult Shop()
     {

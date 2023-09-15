@@ -1,0 +1,29 @@
+docker nedir ? 
+
+docker version farklılıklarından kaynaklı oluşan hataları ortadan kaldırabilmek için geliştirilmiş bir sanal ortam dır.
+docker üzerine birsürü paket yüklenebilir. biz mssql kurulumu yapacğaız.
+
+1.adım : https://www.docker.com adresine giderek apple silicon çipini seçip indirmeyi başlatıyoruz.
+2.adım : docker desktop u bilgisayarımıza yüklüyoruz.
+3.adım : docker üyeliği oluşturuyoruz.
+4.adım : https://hub.docker.com/_/microsoft-azure-sql-edge sayfasına giderek , docker pull mcr.microsoft.com/azure-sql-edge bu link sayesinde azure data studio yu ekliyoruz.
+5.adım : terminalde şu kodu çalıştırıyoruz : docker run -e "ACCEPT_EULA=1" -e "MSSQL_SA_PASSWORD=reallyStrongPwd123" -e "MSSQL_PID=Developer" -e "MSSQL_USER=SA" -p 1433:1433 -d --name=sql mcr.microsoft.com/azure-sql-edge
+6.adım : terminale docker container ls ile çalışan container leri görüntüleyebiliyoruz.
+7.adım : sql serverimiz docker container alanında running oldu, şimdiki adımda azure data studio ile bağlantı kurmak olacak.
+8.adım : azura data studio yu çalıştırıyoruz ve create a connection tıklıyoruz.
+9.adım : server : localhost , User name : sa , Password : reallyStrongPwd123 girerek bağlantıyı sağlıyoruz. / password ve sa 5.adımdaki işlem sonucu belirlenmiş oldu.
+10.adım : yüklediğimiz veri tabanı içerisindeki database ler görünüyor. master , model , msdb , tempdb var. 
+11.adım : macos da diyagram yok. 
+
+.bak uzantılı database ekleme,
+
+1.adım : .bak uzantlı dosyayı masaüstüne alıyoruz.
+2.adım : temrminal üzerinden cd desktop ile desktop konumuna geliyoruz.
+3.adım : terminal ekranına docker cp (database adı).bak (çalışan docker conteiner ıd si):/tmp ile database i tmp klasörü altında atıyoruz.
+4.adım : azure data studio programını çalıştırıyoruz.
+5.adım : database kısmına control + enter ile manage bölümünü açıyoruz.
+6.adım : You must enable preview features in order to use restore hatası alırsak , azure programından settings altından enable preview features tikli olması gerekir.
+6.adım : backup file seçerek yukarda yaptığımız tmp klasörü altından ilgili database i buluyoruz.
+7.adım : ok ve restore diyerek database azure data studio ya eklenmiş oluyor.
+8.adım : azure data studio da oluşan database ler , master , model , msdb , tempdb , ETicaretDB.
+

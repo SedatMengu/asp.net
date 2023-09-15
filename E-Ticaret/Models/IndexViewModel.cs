@@ -1,15 +1,3 @@
-ViewModel oluşturma. 
-
-ASP.NET MVC uygulamalarında view model oluşturmak, verilerinizi veri tabanından 
-veya diğer kaynaklardan alırken ve bunları görünüme iletmek için kullanışlıdır.
-Bir view model, yalnızca görünüme gönderilmesi gereken verileri içerir ve 
-bu, görünümün temiz ve bağımsız kalmasını sağlar.
-
-Models/entities klasörü altındaki bütün .cs uzantılı dosyalar için ViewModel oluşturmamız gerekiyor.
-
-1.adım : Models klasörü altında IndexViewModel.cs adında bir klasör oluşturuyoruz.
-2.adım : 
-
 using asp.net2;
 
 namespace ETicaret.Models
@@ -88,40 +76,3 @@ namespace ETicaret.Models
         public required IEnumerable<Street> Streets { get; set; }
     }
 }
-
-
-IEnumerable,
-
-ASP.NET Core MVC ve daha genel olarak C# programlamasında kullanılan bir arabirimdir (interface). 
-Bu arabirim, bir koleksiyonun temel bir arabirimini tanımlar 
-ve bu koleksiyonun öğelerine sıralı bir şekilde erişim sağlar. 
-ASP.NET Core MVC gibi web uygulamalarında, sıklıkla veri listelerini döndürmek ve bu verileri görüntülemek için kullanılır.
-
-IEnumerable arabirimi, aşağıdaki temel metotları içerir:
-
-GetEnumerator() : Bu metot, koleksiyonun öğelerini sıralı bir şekilde almak için bir IEnumerator arabirimi döndürür. 
-IEnumerator, koleksiyon içindeki öğeler arasında dolaşırken kullanılır.
-
-foreach Döngüsü: IEnumerable arabirimini uygulayan bir sınıf veya koleksiyon, foreach döngüsü içinde kullanılabilir. 
-Bu sayede koleksiyonun her öğesi üzerinde işlem yapabilirsiniz.
-
-ASP.NET Core MVC'de, genellikle veritabanı sorguları sonucu dönen veriler veya liste türleri, 
-IEnumerable veya IQueryable arabirimini uygular. 
-Bu arabirimleri kullanarak sorgu sonuçları üzerinde işlem yapabilir ve görüntüleyebilirsiniz.
-
-public IActionResult Index()
-{
-    // Örnek bir liste oluşturuyoruz
-    var myList = new List<string> { "Öğe 1", "Öğe 2", "Öğe 3" };
-
-    // Liste IEnumerable arabirimini uygular
-    IEnumerable<string> myEnumerable = myList;
-
-    return View(myEnumerable); // View'e IEnumerable koleksiyonunu gönderiyoruz
-}
-
-Bu örnekte, bir liste öğelerini bir IEnumerable koleksiyonuna dönüştürdük ve bu koleksiyonu bir görünüme (View) ilettik. 
-Görünümde bu koleksiyonu kullanarak verileri görüntüleyebilirsiniz.
-
-Kısacası, IEnumerable C# programlamasında koleksiyonlara sıralı erişim sağlayan bir arabirimdir 
-ve ASP.NET Core MVC gibi web uygulamalarında verileri görüntülemek ve işlemek için yaygın olarak kullanılır.
