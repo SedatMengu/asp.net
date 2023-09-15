@@ -1,0 +1,10 @@
+hangi dizine veri kaydedeceğimizi , hangi dizinden veri çekeceğimizi programa tanıtmak için 
+DBContexti homecontroller a tanıtmamız lazım.
+
+homecontroller a gidiyoruz ve şu kodu yazıyoruz.
+
+ETicaretDBContext db = new ETicaretDBContext();
+
+bu kod ile ETicaretDBContext adında bir database oluşturmak suretiyle eklediğimiz database i programa tanıtmış olduk.
+
+1.adım : Slide verilerini veri tabanından getireceğiz.
