@@ -3,8 +3,15 @@ DBContexti homecontroller a tanıtmamız lazım.
 
 homecontroller a gidiyoruz ve şu kodu yazıyoruz.
 
+bu kod parçası ile ETicaretDBContext sınıfından bir nesne oluşturduk.
+
 ETicaretDBContext db = new ETicaretDBContext();
 
-bu kod ile ETicaretDBContext adında bir database oluşturmak suretiyle eklediğimiz database i programa tanıtmış olduk.
+amacımız slide tablosuna 2 - 3 satır veri ekleyerek bunu kodlar yardımı ile veri tabanından çağıracağız.
 
-1.adım : Slide verilerini veri tabanından getireceğiz.
+1.adım : HomeController sayfasına giderek ETicaretDBContext Class ından birtane yeni nesne üreteceğiz.
+şu şekilde :
+
+ETicaretDBContext db = new ETicaretDBContext();
+
+2.adım : 
