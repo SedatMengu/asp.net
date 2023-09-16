@@ -1,0 +1,93 @@
+http protokolü nedir ? 
+
+HTTP (Hypertext Transfer Protocol), World Wide Web'de (WWW) veri iletimi için kullanılan bir iletişim protokolüdür. 
+HTTP, bir istemci-sunucu modeli kullanır ve istemciler (genellikle web tarayıcıları) ile sunucular arasında 
+veri alışverişi yapmak için tasarlanmıştır. 
+Web sayfalarının, resimlerin, videoların ve diğer web içeriğinin iletiminde kullanılır.
+
+HTTP'nin ana görevleri şunlardır:
+
+1- Veri İletimi: 
+
+HTTP, web sunucularından web tarayıcılarına veya diğer istemcilere metin, ses, görüntü ve video 
+gibi çeşitli medya türlerinde verilerin iletilmesini sağlar.
+
+2- İstemci-Sunucu İletişimi: 
+
+HTTP, bir istemci (genellikle web tarayıcısı) ile bir sunucu (web sunucusu) arasındaki iletişimi yönetir. 
+İstemci, bir sunucudan belirli bir kaynağı (URL) isteyerek sunucudan yanıt alır.
+
+3- İstek-Yanıt Modeli: 
+
+HTTP, istemcilerin sunuculara istekte bulunduğu ve sunucuların bu isteklere yanıt verdiği bir modeli benimser. 
+Bu, web sayfalarının ve diğer web kaynaklarının alınmasını ve görüntülenmesini mümkün kılar.
+
+HTTP, genellikle web adreslerinin başında "http://" veya güvenli bir bağlantıda "https://" ile başlayan URL'lerle tanınır.
+"http://" ile başlayan URL'ler, HTTP protokolünü kullanarak iletişim kurar,
+"https://" ile başlayan URL'ler ise HTTP üzerinde güvenli bir şifreleme katmanı (SSL/TLS) kullanarak veri iletimini sağlar.
+
+HTTP'nin sürümleri zaman içinde gelişmiş ve güncellenmiştir. 
+İki önemli sürümü HTTP/1.1 ve HTTP/2'dir. 
+HTTP/1.1, uzun bir süre boyunca en yaygın olarak kullanılan sürümdü, 
+ancak HTTP/2, daha hızlı ve daha verimli veri iletimi sağlamak için gelişmiş özellikler sunar.
+
+HTTP, web tarayıcılarından çevrimiçi alışveriş sitelerine, 
+haber sitelerinden sosyal medya platformlarına kadar çevrimiçi dünyadaki tüm etkileşimlerin temelini oluşturur 
+ve web'deki bilgiye erişimimizi mümkün kılar.
+
+HTTP (Hypertext Transfer Protocol) işlevleri, 
+web tarayıcıları, sunucular ve diğer HTTP istemcileri ile sunucular arasında veri iletişimi
+ve kaynak alışverişi için kullanılan bir dizi işlevi içerir. 
+ 
+İşte HTTP'nin temel işlevleri:
+
+1- GET: 
+
+GET isteği, belirtilen URL'den veri almak için kullanılır. 
+GET isteği, sunucuya veri göndermez, yalnızca veriyi almak için kullanılır. 
+Bu, web tarayıcılarının web sayfalarını görüntülemek için kullandığı istektir.
+
+2- POST: 
+
+POST isteği, belirtilen URL'ye veri göndermek için kullanılır. 
+Bu istek, web formu verilerini sunucuya göndermek veya veri kaydetmek gibi işlemlerde kullanılır.
+
+3- PUT:
+ 
+PUT isteği, belirtilen URL'deki veriyi güncellemek veya değiştirmek için kullanılır. 
+Özellikle RESTful web servislerde kaynakları güncellemek için kullanılır.
+
+4- DELETE: 
+
+DELETE isteği, belirtilen URL'deki veriyi silmek için kullanılır. 
+Özellikle RESTful web servislerde kaynakları silmek için kullanılır.
+
+5- HEAD: 
+
+HEAD isteği, GET isteğine benzer, ancak yalnızca yanıt başlıklarını (header) alır. 
+Veriyi almadan yanıtın başlıklarını kontrol etmek istediğinizde kullanışlıdır.
+
+6- OPTIONS: 
+
+OPTIONS isteği, sunucunun belirli bir URL için hangi HTTP yöntemlerini (GET, POST, PUT, vb.) desteklediğini sorgular. 
+Bu, sunucu üzerindeki izinleri ve yetkilendirmeleri anlamak için kullanışlıdır.
+
+7- PATCH: 
+
+PATCH isteği, belirli bir kaynağın kısmi olarak güncellenmesini talep eder. 
+Yani, tüm kaynağı değil, yalnızca belirli alanları güncellemek için kullanılır.
+
+8- TRACE: 
+
+TRACE isteği, istemcilerin sunucuya gönderdikleri isteği geri alma amacıyla kullanılır. 
+Genellikle hata ayıklama ve izleme amacıyla kullanılır.
+
+9- CONNECT: 
+
+CONNECT isteği, sunucu ile güvenli bir şekilde iletişim kurmak için kullanılır. 
+Genellikle HTTP üzerinden başka bir protokole (örneğin, SSL/TLS) geçiş yapmak için kullanılır.
+
+
+Bu HTTP yöntemleri, web uygulamalarının farklı işlevleri gerçekleştirmek için kullanabileceği temel yapı taşlarıdır. 
+Her yöntem belirli bir amaca hizmet eder ve web tarayıcıları ve sunucular arasındaki etkileşimlerin nasıl gerçekleşeceğini tanımlar.
+Web uygulamaları, bu HTTP yöntemlerini kullanarak kullanıcıların veri alışverişi yapmasını ve web servislerine erişmesini sağlar.

@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using asp.net2.Models;
 using ETicaret.Models;
+using System.Linq;
 
 namespace asp.net2.Controllers;
 
@@ -14,19 +15,27 @@ public class HomeController : Controller
         _logger = logger;
     }
 
-    ETicaretDBContext db = new ETicaretDBContext();
+    ETicaretDBContext db = ETicaretDBContext();
+
+    private static ETicaretDBContext ETicaretDBContext()
+    {
+        throw new NotImplementedException();
+    }
+
+    public object slide { get; private set; }
 
     [Route ("/")]
     public IActionResult Index()
     {
         var model = IndexViewModel();
-        
         return View(model);
     }
 
     private string? IndexViewModel()
     {
         throw new NotImplementedException();
+        
+
     }
 
     [Route ("/shop")]
