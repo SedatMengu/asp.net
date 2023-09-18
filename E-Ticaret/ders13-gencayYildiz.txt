@@ -1,0 +1,25 @@
+mvc projesindeki dosyaları tanıyalım.
+
+1- program.cs :
+
+asp.net core esasında bir console uygulamasıdır. kendi içerisinde barındırdığı sunucuyu ayapa kaldırdığı yer program.cs dir.
+bu cümleden kasıt terminalden "dotnet run" yazdığımızda devreye giren kısım program.cs dir.
+
+2- startup.cs : 
+
+program.cs vasıtasıyla dosyamızı çalıştırmaya başladığımızda program.cs dosyası startup.cs içerisindeki ayarlamaları kendine
+referans kabul ederek çalışır.
+
+startup.cs in 2 temel metotu vardır.
+
+1- configureServices : 
+
+uygulamada kullanacağımız servisleri eklediğimiz metottur. 
+
+örneğin uygulamamıza bir ödeme bölümü ekleyeceğiz. bu bölümü kendimiz yapmaya kalksak bir sürü zamana ihtiyacımız olur.
+ancak edindiğimiz bir modülü uygulamamıza entegre ederek daha hızlı sonuç elde edebiliriz.
+
+bu modülü startup.cs dosyası içerisindeki configureServices bölümünden ekliyoruz.
+
+2- configure :
+
