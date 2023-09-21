@@ -43,6 +43,7 @@ public class HomeController : Controller
     {
         return View();
     }
+
     [Route ("/blog")]
     public IActionResult Blog()
     {
@@ -56,6 +57,7 @@ public class HomeController : Controller
     [Route ("/checkOut")]
     public IActionResult CheckOut()
     {
+        Band band = new Band();
         return View();
     }
     [Route ("/contact")]
